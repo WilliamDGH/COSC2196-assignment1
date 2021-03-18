@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "node"
+
+cache: yarn
+
+script: yarn run build
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 4d1578fb33122aeb2ed9165150a935f090d8cd63
+  local_dir: dist
+  on:
+    branch: master
