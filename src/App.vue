@@ -1,17 +1,7 @@
 <template>
   <div class="relative bg-gray-800 overflow-hidden">
-    <div class="hidden sm:block sm:absolute sm:inset-0" aria-hidden="true">
-      <svg class="absolute bottom-0 right-0 transform translate-x-1/2 mb-48 text-gray-700 lg:top-0 lg:mt-28 lg:mb-0 xl:transform-none xl:translate-x-0" width="364" height="384" viewBox="0 0 364 384" fill="none">
-        <defs>
-          <pattern id="eab71dd9-9d7a-47bd-8044-256344ee00d0" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
-            <rect x="0" y="0" width="4" height="4" fill="currentColor" />
-          </pattern>
-        </defs>
-        <rect width="364" height="384" fill="url(#eab71dd9-9d7a-47bd-8044-256344ee00d0)" />
-      </svg>
-    </div>
     <div class="relative pt-6 pb-16 sm:pb-24">
-      <NavBar/>
+      <NavBar ref="top"/>
 
       <!--
         Mobile menu, show/hide based on menu open state.
@@ -174,11 +164,16 @@
       </main>
     </div>
   </div>
+  <div class="fixed bottom-10 right-10 z-50">
+    <SideNav />
+  </div>
   <AboutMe class="pb-4" ref="aboutMe" />
 
   <Interest class="pb-4" ref="interest" />
 
   <DreamJob class="pb-4" ref="dreamJob" />
+
+  <Footer />
 
 </template>
 
@@ -188,9 +183,11 @@ import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import DreamJob from "./components/DreamJob";
 import Interest from "./components/Interest";
+import SideNav from "./components/SideNav";
+import Footer from "./components/Footer";
 export default {
   name: 'App',
-  components: {Interest, DreamJob, AboutMe, NavBar},
+  components: {Footer, SideNav, Interest, DreamJob, AboutMe, NavBar},
   data: function () {
     return {
       darkMode: 'media',

@@ -17,11 +17,6 @@
         <a href="" class="font-medium text-white hover:text-gray-300">Company</a>
       </div>
     </div>
-    <div class="hidden md:flex">
-      <a href="#" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-gray-600 hover:bg-gray-700">
-        Log in
-      </a>
-    </div>
   </nav>
 </template>
 
