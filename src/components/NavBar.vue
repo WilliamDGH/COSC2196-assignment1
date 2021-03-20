@@ -7,13 +7,14 @@
         </a>
       </div>
       <div class="hidden space-x-10 md:flex md:ml-10">
-        <a href="#" class="font-medium text-white hover:text-gray-300">About Me</a>
+        <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('aboutMe')">About Me</a>
 
-        <a href="#" class="font-medium text-white hover:text-gray-300">Features</a>
+        <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('interest')">Interest In IT</a>
 
-        <a href="#" class="font-medium text-white hover:text-gray-300">Marketplace</a>
+        <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('dreamJob')">Dream Job</a>
 
-        <a href="#" class="font-medium text-white hover:text-gray-300">Company</a>
+
+        <a href="" class="font-medium text-white hover:text-gray-300">Company</a>
       </div>
     </div>
     <div class="hidden md:flex">
@@ -27,5 +28,19 @@
 <script>
 export default {
   name: 'NavBar',
+  methods: {
+    scroll(sectionRef) {
+      const sectionElement = this.$parent.$refs[sectionRef].$el
+
+      if (sectionElement) {
+        // Use el.scrollIntoView() to instantly scroll to the element
+        this.$nextTick(() => {
+          sectionElement.scrollIntoView({
+            behavior: 'smooth',
+          })
+        })
+      }
+    }
+  },
 }
 </script>

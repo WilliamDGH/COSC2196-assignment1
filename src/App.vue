@@ -174,15 +174,23 @@
       </main>
     </div>
   </div>
+  <AboutMe class="pb-4" ref="aboutMe" />
+
+  <Interest class="pb-4" ref="interest" />
+
+  <DreamJob class="pb-4" ref="dreamJob" />
 
 </template>
 
 <script>
 
 import NavBar from "./components/NavBar";
+import AboutMe from "./components/AboutMe";
+import DreamJob from "./components/DreamJob";
+import Interest from "./components/Interest";
 export default {
   name: 'App',
-  components: {NavBar},
+  components: {Interest, DreamJob, AboutMe, NavBar},
   data: function () {
     return {
       darkMode: 'media',
