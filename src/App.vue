@@ -14,6 +14,10 @@
 
   <DreamJob class="pb-4" ref="dreamJob" />
 
+  <PersonalProfile class="pb-4" ref="profile"/>
+
+  <ProjectIdea class="pb-4" ref="project" />
+
   <Footer />
 
 </template>
@@ -27,9 +31,13 @@ import Interest from "./components/Interest";
 import SideNav from "./components/SideNav";
 import Footer from "./components/Footer";
 import Main from "./components/Main";
+import PersonalProfile from "./components/PersonalProfile";
+import ProjectIdea from "./components/ProjectIdea";
 export default {
   name: 'App',
   components: {
+    ProjectIdea,
+    PersonalProfile,
     Main,
     Footer,
     SideNav,

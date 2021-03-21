@@ -37,17 +37,17 @@
 
     <a href=""
        class="text-gray-200 hover:bg-gray-50 hover:text-gray-900 flex items-center px-3 py-2 text-sm font-medium rounded-md"
-       @click.prevent="scroll('dreamJob')">
+       @click.prevent="scroll('profile')">
     <span class="truncate">
-      Documents
+      Personal Profile
     </span>
     </a>
 
     <a href=""
        class="text-gray-200 hover:bg-gray-50 hover:text-gray-900 flex items-center px-3 py-2 text-sm font-medium rounded-md"
-       @click.prevent="scroll('dreamJob')">
+       @click.prevent="scroll('project')">
     <span class="truncate">
-      Reports
+      Project Idea
     </span>
     </a>
   </nav>

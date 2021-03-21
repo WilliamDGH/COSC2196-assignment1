@@ -13,8 +13,9 @@
 
         <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('dreamJob')">Dream Job</a>
 
+        <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('profile')">Personal Profile</a>
 
-        <a href="" class="font-medium text-white hover:text-gray-300">Company</a>
+        <a href="" class="font-medium text-white hover:text-gray-300" @click.prevent="scroll('project')">Project Idea</a>
       </div>
     </div>
   </nav>
