@@ -14,49 +14,47 @@
           </svg>
         </div>
         <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
-          <!-- Testimonial card-->
-          <div class="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
-            <img class="absolute inset-0 h-full w-full object-cover" src="https://images.unsplash.com/photo-1521510895919-46920266ddb3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&fp-x=0.5&fp-y=0.6&fp-z=3&width=1440&height=1440&sat=-100" alt="">
-            <div class="absolute inset-0 bg-indigo-500" style="mix-blend-mode: multiply;"></div>
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-600 via-indigo-600 opacity-90"></div>
-            <div class="relative px-8">
-              <div>
-                <img class="h-12" src="https://tailwindui.com/img/logos/workcation.svg?color=white" alt="Workcation">
-              </div>
-              <blockquote class="mt-8">
-                <div class="relative text-lg font-medium text-white md:flex-grow">
-                  <svg class="absolute top-0 left-0 transform -translate-x-3 -translate-y-2 h-8 w-8 text-indigo-400" fill="currentColor" viewBox="0 0 32 32" aria-hidden="true">
-                    <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                  </svg>
-                  <p class="relative">
-                    Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam. Montes, magna cursus nulla feugiat dignissim id lobortis amet.
-                  </p>
-                </div>
-
-                <footer class="mt-4">
-                  <p class="text-base font-semibold text-indigo-200">Sarah Williams, CEO at Workcation</p>
-                </footer>
-              </blockquote>
-            </div>
+          <div class="relative pt-64 pb-10 rounded-xl shadow-xl overflow-hidden" style="height: 700px;">
+            <img class="absolute inset-0 h-full w-full object-cover" src="@/assets/photo-3.png" alt="">
           </div>
+          <figcaption class="mt-3 flex text-sm text-gray-500">
+            <!-- Heroicon name: solid/camera -->
+            <svg class="flex-none w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+            </svg>
+            <span class="ml-2">Game Science Studio, Hangzhou</span>
+          </figcaption>
+        </div>
+        <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0 lg:max-w-none lg:py-20">
+          <div class="relative pt-64 pb-10 rounded-xl shadow-xl overflow-hidden" style="height: 586px;">
+            <img class="absolute inset-0 h-full w-full object-cover" src="@/assets/photo-4.png" alt="">
+          </div>
+          <figcaption class="mt-3 flex text-sm text-gray-500">
+            <!-- Heroicon name: solid/camera -->
+            <svg class="flex-none w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M4 5a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V7a2 2 0 00-2-2h-1.586a1 1 0 01-.707-.293l-1.121-1.121A2 2 0 0011.172 3H8.828a2 2 0 00-1.414.586L6.293 4.707A1 1 0 015.586 5H4zm6 9a3 3 0 100-6 3 3 0 000 6z" clip-rule="evenodd" />
+            </svg>
+            <span class="ml-2 text-xs">Please note this is a Chinese company and the link is in Chinese. The above screenshot was captured with Google Translation.</span>
+          </figcaption>
         </div>
       </div>
 
       <div class="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-0">
         <!-- Content area -->
         <div class="pt-12 sm:pt-16 lg:pt-20">
-          <h2 class="text-3xl text-gray-900 font-extrabold tracking-tight sm:text-4xl">
-            On a mission to empower teams
-          </h2>
+          <h2 class="text-base text-indigo-600 font-semibold tracking-wide uppercase">Ideal Job</h2>
+          <h3 class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Game Engine Engineer</h3>
           <div class="mt-6 text-gray-500 space-y-6">
             <p class="text-lg">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel porttitor vitae ut. Amet vitae fames senectus vitae.
+              My ideal job would be working as a software engineer or game engine engineer for a game company that I like. I was into gaming ever since I was a child, and working at a game company would really be a dream come true for me. This is an example of these jobs I hope I will be able to get one day.            </p>
+            <p class="text-base leading-7">
+              The company is called Game Science, and they have recently released a real time render of their first next gen game called Black Myth Wukong. Which is an action role-playing game based on the classical 16th-century Chinese novel Journey to the West.
             </p>
             <p class="text-base leading-7">
-              Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+              The job title is Unreal Engine 4 Graphics Engineer, which is what I want to do in the gaming industry. Although gaming is my passion, I am terrible at designing things or drawing graphics. As a game engine engineer I will be working closely with the game designers and graphics artists, using tools such as the UE4 game engine, C++ programming language. And I will join a team of passionable gamers to create the next gen games with the Chinese culture background.
             </p>
             <p class="text-base leading-7">
-              Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+              My current skills are not inline with the job requirements at all. I had taken a few Unity courses in Udemy, and that’s all I have in terms of working with game engines. My plan is to study C++ and unreal game engine, and also complete the Bachelor of Information Technology degree from RMIT. Then I will be looking for a junior position working as a game engine engineer. With two to three years of experience gained, I will be ready to apply for this position or something similar.
             </p>
           </div>
         </div>
@@ -65,27 +63,27 @@
         <div class="mt-10">
           <dl class="grid grid-cols-2 gap-x-4 gap-y-8">
             <div class="border-t-2 border-gray-100 pt-6">
-              <dt class="text-base font-medium text-gray-500">Founded</dt>
-              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">2021</dd>
+              <dt class="text-base font-medium text-gray-500">Position</dt>
+              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">Game Engine Engineer</dd>
             </div>
 
             <div class="border-t-2 border-gray-100 pt-6">
-              <dt class="text-base font-medium text-gray-500">Employees</dt>
-              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">5</dd>
+              <dt class="text-base font-medium text-gray-500">Degree</dt>
+              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">Bachelor</dd>
             </div>
 
             <div class="border-t-2 border-gray-100 pt-6">
-              <dt class="text-base font-medium text-gray-500">Beta Users</dt>
-              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">521</dd>
+              <dt class="text-base font-medium text-gray-500">Language</dt>
+              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">C++</dd>
             </div>
 
             <div class="border-t-2 border-gray-100 pt-6">
-              <dt class="text-base font-medium text-gray-500">Raised</dt>
-              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">$25M</dd>
+              <dt class="text-base font-medium text-gray-500">Game Engine</dt>
+              <dd class="text-3xl font-extrabold tracking-tight text-gray-900">Unreal Engine 4</dd>
             </div>
           </dl>
           <div class="mt-10">
-            <a href="#" class="text-base font-medium text-indigo-600"> Learn more about how we're changing the world <span aria-hidden="true">&rarr;</span> </a>
+            <a href="https://www.zhipin.com/job_detail/3cbe42230f4b0eac1nZ429m8EFdS.html?ka=comp_joblist_11" target="_blank" class="text-base font-medium text-indigo-600"> Find out more about this position <span aria-hidden="true">&rarr;</span> </a>
           </div>
         </div>
       </div>
