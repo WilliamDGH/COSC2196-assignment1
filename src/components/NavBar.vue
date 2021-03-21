@@ -3,7 +3,7 @@
     <div class="flex items-center flex-1">
       <div class="flex items-center justify-between w-full md:w-auto">
         <a href="#">
-          <img class="h-8 w-auto sm:h-10" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="">
+          <img class="h-20 w-auto" src="@/assets/favicon.png" alt="">
         </a>
       </div>
       <div class="hidden space-x-10 md:flex md:ml-10">
