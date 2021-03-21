@@ -34,9 +34,6 @@
           </div>
         </div>
         <div class="mt-8 lg:mt-0">
-          <div class="text-base max-w-prose mx-auto lg:max-w-none">
-            <p class="text-lg text-gray-500">Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque. Blandit amet, sed aenean erat arcu morbi.</p>
-          </div>
           <div class="mt-5 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1">
             <p>
               I have always liked to tinker with hardwares and computers ever since I was a child, to find out how things work and to be able to use computers to do all sorts of things always keeps me excited.

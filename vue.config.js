@@ -1,5 +1,5 @@
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production'
-        ? '/Introduction-to-Information-Technology/'
+        ? '/COSC2196-assignment1/'
         : '/'
 }
